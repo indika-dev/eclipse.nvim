@@ -1,7 +1,7 @@
 local M = {}
 
 --- generate highlights table
--- @param colors color (theme) color table created by require("kanagawa.colors").setup()
+-- @param colors color (theme) color table created by require("eclipse.colors").setup()
 -- @param config config options (optional)
 function M.setup(colors, config)
 	config = vim.tbl_extend("force", require("eclipse").config, config or {})
@@ -38,7 +38,7 @@ function M.setup(colors, config)
 		CursorLineNr = { fg = colors.bg_light2, bold = true },
 		MatchParen = { fg = colors.diag.orange_2, bold = true },
 		ModeMsg = { fg = colors.diag.warning, bold = true },
-		MsgArea = { fg = colors.white_2 },
+		MsgArea = { fg = colors.gray_2 },
 		-- MsgSeparator = {},
 		MoreMsg = { fg = colors.diag.info, bg = colors.bg },
 		NonText = { fg = colors.bg_light2 },
