@@ -43,7 +43,7 @@ return {
 
 			diag = {
 				error = colors.light_red,
-				warning = colors.yellow,
+				warning = colors.orange_2,
 				info = colors.blue_2,
 				hint = colors.purple_2,
 			},

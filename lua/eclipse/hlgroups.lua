@@ -306,7 +306,7 @@ function M.setup(colors, config)
 		NvimTreeImageFile = { fg = colors.sp2 },
 		NvimTreeSymlink = { link = "Type" },
 		NvimTreeFolderName = { link = "Directory" },
-		NvimTreeExecFile = { fg = colors.springGreen, bold = true },
+		NvimTreeExecFile = { fg = colors.green_3, bold = true },
 		NvimTreeGitStaged = { fg = colors.git.added },
 		NvimTreeOpenedFile = { fg = colors.sp, italic = true },
 
