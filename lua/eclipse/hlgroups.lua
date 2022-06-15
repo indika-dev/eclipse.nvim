@@ -354,7 +354,7 @@ function M.setup(colors, config)
 
     -- NeoVim                         = {},
     healthError = { fg = colors.diag.error },
-    healthSuccess = { fg = colors.springGreen },
+    healthSuccess = { fg = colors.green_2 },
     healthWarning = { fg = colors.diag.warning },
 
     -- BufferLine

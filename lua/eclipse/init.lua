@@ -21,7 +21,7 @@ local function check_config(config)
     if type(config[opt]) ~= "table" then
       config[opt] = {}
       vim.notify_once(
-        "Kanagawa: deprecated format for Style option in config.xxxStyle: use a table like { italic = true } instead. See README.md for more info.",
+        "Eclipse: deprecated format for Style option in config.xxxStyle: use a table like { italic = true } instead. See README.md for more info.",
         vim.log.levels.ERROR
       )
     end
@@ -30,7 +30,7 @@ local function check_config(config)
     if hl.style then
       hl.style = nil
       vim.notify_once(
-        "Kanagawa: deprecated format for highlight style in config.overrides: use the syntax { italic = true } instead. See README.md for more info.",
+        "Eclipse: deprecated format for highlight style in config.overrides: use the syntax { italic = true } instead. See README.md for more info.",
         vim.log.levels.ERROR
       )
     end
@@ -40,12 +40,12 @@ end
 --- default config
 M.config = {
   undercurl = true,
-  commentStyle = { italic = true },
+  commentStyle = {},
   functionStyle = {},
-  keywordStyle = { italic = true },
+  keywordStyle = { bold = true },
   statementStyle = { bold = true },
   typeStyle = {},
-  variablebuiltinStyle = { italic = true },
+  variablebuiltinStyle = {},
   specialReturn = true,
   specialException = true,
   transparent = false,
