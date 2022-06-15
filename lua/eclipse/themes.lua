@@ -13,7 +13,7 @@ return {
 			bg_menu_sel = colors.gray_3,
 
 			bg_status = colors.blue4,
-			bg_visual = colors.blue_2,
+			bg_visual = colors.gray_3,
 			bg_search = colors.blue,
 
 			fg_border = colors.light_gray_3,
