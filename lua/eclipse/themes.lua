@@ -25,7 +25,7 @@ return {
       fg_menu = colors.white_2,
 
       co = colors.orange_2,
-      st = colors.green_3,
+      st = colors.blue_2,
       nu = colors.pink,
       id = colors.black,
       fn = colors.blue_4,
