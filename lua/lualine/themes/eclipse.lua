@@ -10,22 +10,22 @@ eclipse.normal = {
 
 eclipse.insert = {
   a = { bg = colors.green_2, fg = colors.bg_dark },
-  b = { bg = colors.green_3, fg = colors.white_2 },
+  b = { bg = colors.gray_4, fg = colors.green_2 },
 }
 
 eclipse.command = {
   a = { bg = colors.gray_2, fg = colors.bg_dark },
-  b = { bg = colors.bg, fg = colors.white_2 },
+  b = { bg = colors.gray_4, fg = colors.gray_2 },
 }
 
 eclipse.visual = {
   a = { bg = colors.purple_2, fg = colors.bg_dark },
-  b = { bg = colors.purple_2, fg = colors.white_2 },
+  b = { bg = colors.gray_4, fg = colors.purple_2 },
 }
 
 eclipse.replace = {
   a = { bg = colors.light_red_2, fg = colors.bg_dark },
-  b = { bg = colors.light_red, fg = colors.white_2 },
+  b = { bg = colors.gray_4, fg = colors.light_red_2 },
 }
 
 eclipse.inactive = {
