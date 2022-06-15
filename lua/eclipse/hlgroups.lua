@@ -31,7 +31,7 @@ function M.setup(colors, config)
 		} or { link = "VertSplit" },
 		Folded = { fg = colors.bg_light3, bg = colors.bg_light0 },
 		FoldColumn = { fg = colors.bg },
-		SignColumn = { fg = colors.bg_light2 },
+		SignColumn = { fg = colors.bg },
 		SignColumnSB = { link = "SignColumn" },
 		Substitute = { fg = colors.fg, bg = colors.git.removed },
 		LineNr = { fg = colors.bg_light3 },
