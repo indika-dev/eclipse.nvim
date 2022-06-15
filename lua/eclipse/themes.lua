@@ -16,8 +16,8 @@ return {
 			bg_visual = colors.blue_2,
 			bg_search = colors.blue,
 
-			fg_border = colors.unknown_1,
-			fg_dark = colors.light_gray_3,
+			fg_border = colors.light_gray_3,
+			fg_dark = colors.black,
 			fg_reverse = colors.gray_2,
 
 			fg_comment = colors.green_2,

@@ -119,7 +119,7 @@ function M.setup(colors, config)
 		Ignore = { link = "NonText" },
 
 		Error = { fg = colors.diag.error },
-		Todo = { fg = colors.fg_reverse, bg = colors.diag.info, bold = true },
+		Todo = { fg = colors.white_1, bg = colors.blue_5, bold = true },
 
 		qfLineNr = { link = "lineNr" },
 		qfFileName = { link = "Directory" },
