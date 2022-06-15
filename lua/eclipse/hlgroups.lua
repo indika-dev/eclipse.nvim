@@ -145,9 +145,9 @@ function M.setup(colors, config)
     debugPC = { bg = colors.diff.delete },
     debugBreakpoint = { fg = colors.sp },
 
-    LspReferenceText = { bg = colors.diff.text },
-    LspReferenceRead = { link = "LspReferenceText" },
-    LspReferenceWrite = { link = "LspReferenceText" },
+    LspReferenceText = { bg = colors.gray_4 },
+    LspReferenceRead = { bg = colors.gray_4 },
+    LspReferenceWrite = { bg = colors.orange },
 
     DiagnosticError = { fg = colors.diag.error },
     DiagnosticWarn = { fg = colors.diag.warning },
