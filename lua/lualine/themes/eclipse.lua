@@ -4,28 +4,28 @@ local eclipse = {}
 
 eclipse.normal = {
   a = { bg = colors.gray_2, fg = colors.blue_4 },
-  b = { bg = colors.gray_4, fg = colors.white_2 },
+  b = { bg = colors.gray_4, fg = colors.blue_4 },
   c = { bg = colors.bg_light0, fg = colors.fg },
 }
 
 eclipse.insert = {
   a = { bg = colors.green_2, fg = colors.bg_dark },
-  b = { bg = colors.gray_4, fg = colors.white_2 },
+  b = { bg = colors.green_3, fg = colors.white_2 },
 }
 
 eclipse.command = {
-  a = { bg = colors.yellow, fg = colors.bg_dark },
-  b = { bg = colors.bg, fg = colors.yellow },
+  a = { bg = colors.gray_2, fg = colors.bg_dark },
+  b = { bg = colors.bg, fg = colors.white_2 },
 }
 
 eclipse.visual = {
-  a = { bg = colors.purple_1, fg = colors.bg_dark },
-  b = { bg = colors.gray_4, fg = colors.purple_1 },
+  a = { bg = colors.purple_2, fg = colors.bg_dark },
+  b = { bg = colors.purple_2, fg = colors.white_2 },
 }
 
 eclipse.replace = {
   a = { bg = colors.light_red_2, fg = colors.bg_dark },
-  b = { bg = colors.gray_4, fg = colors.light_red_2 },
+  b = { bg = colors.light_red, fg = colors.white_2 },
 }
 
 eclipse.inactive = {
