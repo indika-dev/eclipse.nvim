@@ -30,7 +30,7 @@ function M.setup(colors, config)
 			bg = config.dimInactive and colors.bg_dim or "NONE",
 		} or { link = "VertSplit" },
 		Folded = { fg = colors.bg_light3, bg = colors.bg_light0 },
-		FoldColumn = { fg = colors.bg_light2 },
+		FoldColumn = { fg = colors.bg },
 		SignColumn = { fg = colors.bg_light2 },
 		SignColumnSB = { link = "SignColumn" },
 		Substitute = { fg = colors.fg, bg = colors.git.removed },
