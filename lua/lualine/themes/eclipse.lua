@@ -3,14 +3,14 @@ local colors = require("eclipse.colors").setup()
 local eclipse = {}
 
 eclipse.normal = {
-  a = { bg = colors.blue, fg = colors.bg_dark },
-  b = { bg = colors.light_blue_2, fg = colors.blue },
+  a = { bg = colors.gray_2, fg = colors.blue_4 },
+  b = { bg = colors.gray_4, fg = colors.white_2 },
   c = { bg = colors.bg_light0, fg = colors.fg },
 }
 
 eclipse.insert = {
   a = { bg = colors.green_2, fg = colors.bg_dark },
-  b = { bg = colors.bg, fg = colors.green_2 },
+  b = { bg = colors.gray_4, fg = colors.white_2 },
 }
 
 eclipse.command = {
@@ -20,12 +20,12 @@ eclipse.command = {
 
 eclipse.visual = {
   a = { bg = colors.purple_1, fg = colors.bg_dark },
-  b = { bg = colors.bg, fg = colors.purple_1 },
+  b = { bg = colors.gray_4, fg = colors.purple_1 },
 }
 
 eclipse.replace = {
   a = { bg = colors.light_red_2, fg = colors.bg_dark },
-  b = { bg = colors.bg, fg = colors.light_red_2 },
+  b = { bg = colors.gray_4, fg = colors.light_red_2 },
 }
 
 eclipse.inactive = {
