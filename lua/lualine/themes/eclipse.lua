@@ -4,7 +4,7 @@ local eclipse = {}
 
 eclipse.normal = {
   a = { bg = colors.gray_2, fg = colors.blue_4 },
-  b = { bg = colors.gray_4, fg = colors.blue_4 },
+  b = { bg = colors.gray_4, fg = colors.black },
   c = { bg = colors.bg_light0, fg = colors.fg },
 }
 
