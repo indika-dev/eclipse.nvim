@@ -248,56 +248,56 @@ function M.setup(colors, config)
 		-- Lua
 		-- luaTSProperty = {},
 
-		-- -- LspTrouble
-		-- -- LspTroubleText = {},
-		-- -- LspTroubleCount = {},
-		-- -- LspTroubleNormal = {},
+		-- LspTrouble
+		-- LspTroubleText = {},
+		-- LspTroubleCount = {},
+		-- LspTroubleNormal = {},
 
-		-- -- Illuminate
-		-- -- illuminatedWord = {},
-		-- -- illuminatedCurWord = {},
+		-- Illuminate
+		-- illuminatedWord = {},
+		-- illuminatedCurWord = {},
 
-		-- -- Git
-		-- diffAdded = { fg = colors.git.added.fg, bg = colors.git.added.bg },
-		-- diffRemoved = { fg = colors.git.removed.fg, bg = colors.git.removed.bg },
-		-- diffDeleted = { fg = colors.git.removed.fg, bg = colors.git.removed.bg },
-		-- diffChanged = { fg = colors.git.changed.fg, bg = colors.git.changed.bg },
-		-- diffOldFile = { fg = colors.git.removed.fg, bg = colors.git.removed.bg },
-		-- diffNewFile = { fg = colors.git.added.fg, bg = colors.git.added.bg },
-		-- -- diffFile = { fg = c.steelGray },
-		-- -- diffLine = { fg = c.steelGray },
-		-- -- diffIndexLine = { link = 'Identifier' },
+		-- Git
+		diffAdded = { fg = colors.git.added.fg, bg = colors.git.added.bg },
+		diffRemoved = { fg = colors.git.removed.fg, bg = colors.git.removed.bg },
+		diffDeleted = { fg = colors.git.removed.fg, bg = colors.git.removed.bg },
+		diffChanged = { fg = colors.git.changed.fg, bg = colors.git.changed.bg },
+		diffOldFile = { fg = colors.git.removed.fg, bg = colors.git.removed.bg },
+		diffNewFile = { fg = colors.git.added.fg, bg = colors.git.added.bg },
+		-- diffFile = { fg = c.steelGray },
+		-- diffLine = { fg = c.steelGray },
+		-- diffIndexLine = { link = 'Identifier' },
 
-		-- -- Neogit
-		-- -- NeogitBranch = {},
-		-- -- NeogitRemote = {},
-		-- -- NeogitHunkHeader = {},
-		-- -- NeogitHunkHeaderHighlight = {},
-		-- -- NeogitDiffContextHighlight = {},
-		-- -- NeogitDiffDeleteHighlight = {},
-		-- -- NeogitDiffAddHighlight = {},
+		-- Neogit
+		-- NeogitBranch = {},
+		-- NeogitRemote = {},
+		-- NeogitHunkHeader = {},
+		-- NeogitHunkHeaderHighlight = {},
+		-- NeogitDiffContextHighlight = {},
+		-- NeogitDiffDeleteHighlight = {},
+		-- NeogitDiffAddHighlight = {},
 
-		-- -- GitGutter
-		-- -- GitGutterAdd = {},
-		-- -- GitGutterChange = {},
-		-- -- GitGutterDelete = {},
+		-- GitGutter
+		-- GitGutterAdd = {},
+		-- GitGutterChange = {},
+		-- GitGutterDelete = {},
 
-		-- -- GitSigns
-		-- GitSignsAdd = { link = "diffAdded" },
-		-- GitSignsChange = { link = "diffChanged" },
-		-- GitSignsDelete = { link = "diffDeleted" },
-		-- GitSignsDeleteLn = { bg = colors.diff.delete.bg },
+		-- GitSigns
+		GitSignsAdd = { link = "diffAdded" },
+		GitSignsChange = { link = "diffChanged" },
+		GitSignsDelete = { link = "diffDeleted" },
+		GitSignsDeleteLn = { bg = colors.diff.delete.bg },
 
-		-- -- Telescope                      = {},
-		-- TelescopeBorder = { fg = colors.vertSplit.fg, bg = colors.vertSplit.bg },
-		-- TelescopeResultsClass = { link = "TSType" },
-		-- TelescopeResultsStruct = { link = "TSType" },
-		-- TelescopeResultsVariable = { link = "TSVariable" },
+		-- Telescope                      = {},
+		TelescopeBorder = { fg = colors.vertSplit.fg, bg = colors.vertSplit.bg },
+		TelescopeResultsClass = { link = "TSType" },
+		TelescopeResultsStruct = { link = "TSType" },
+		TelescopeResultsVariable = { link = "TSVariable" },
 
-		-- -- NvimTree                       = {},
-		-- NvimTreeNormal = { link = "Normal" },
-		-- NvimTreeNormalNC = { link = "NormalNC" },
-		-- NvimTreeRootFolder = { fg = colors.title.fg, bold = true },
+		-- NvimTree                       = {},
+		NvimTreeNormal = { link = "Normal" },
+		NvimTreeNormalNC = { link = "NormalNC" },
+		NvimTreeRootFolder = { fg = colors.title.fg, bold = true },
 		-- NvimTreeGitDirty = { fg = colors.git.changed.fg, bg = colors.git.changed.bg },
 		-- NvimTreeGitNew = { fg = colors.git.added.fg, bg = colors.git.added.bg },
 		-- NvimTreeGitDeleted = { bg = colors.git.removed.bg, fg = "Red" },
