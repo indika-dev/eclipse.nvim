@@ -303,7 +303,7 @@ function M.setup(colors, config)
 		NvimTreeGitDeleted = { bg = colors.git.removed.bg, fg = "Red" },
 		NvimTreeSpecialFile = { fg = colors.special.fg },
 		-- NvimTreeIndentMarker           = {},
-		NvimTreeImageFile = { fg = colors.special.de },
+		NvimTreeImageFile = { fg = colors.special.fg },
 		NvimTreeSymlink = { link = "Type" },
 		NvimTreeFolderName = { link = "Directory" },
 		NvimTreeExecFile = { fg = "Green", bold = true },
