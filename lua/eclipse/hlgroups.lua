@@ -75,23 +75,23 @@ function M.setup(colors, config)
 		Whitespace = { fg = colors.bg_light },
 		WildMenu = { fg = colors.wildMenu.fg, bg = colors.wildMenu.bg },
 
-		Constant = { fg = colors.constant },
-		String = { fg = colors.string },
+		Constant = { fg = colors.constant.fg },
+		String = { fg = colors.string.fg },
 		Character = { link = "String" },
-		Number = { fg = colors.number },
-		Boolean = { fg = colors.number, bold = true },
+		Number = { fg = colors.number.fg },
+		Boolean = { fg = colors.number.fg, bold = true },
 		Float = { link = "Number" },
 
-		Identifier = { fg = colors.identifier },
+		Identifier = { fg = colors.identifier.fg },
 		Function = vim.tbl_extend("force", { fg = colors.identifier.fg }, config.functionStyle),
 		Method = { link = "Function" },
 		Statement = vim.tbl_extend("force", { fg = colors.statement.fg }, config.statementStyle),
 		-- Conditional = {},
 		-- Repeat = {},
 		-- Label = { link = 'Statement' }, --TODO: check default
-		Operator = { fg = colors.operator },
+		Operator = { fg = colors.operator.fg },
 		Keyword = vim.tbl_extend("force", { fg = colors.keyword.fg }, config.keywordStyle),
-		Exception = { fg = colors.special },
+		Exception = { fg = colors.special.fg },
 
 		PreProc = { fg = colors.preProc.fg },
 		-- Include = {},
@@ -183,7 +183,7 @@ function M.setup(colors, config)
 		-- TSNote = { fg = c.fg_dark, bg = c.diag.hint, nocombine = true, bold = true}, -- links to SpecialComment -> Special
 		TSWarning = { link = "Todo" }, --default
 		TSDanger = { link = "WarningMsg" }, --default
-		TSConstructor = { fg = colors.keyword }, -- Function/Special/Statement/Keyword
+		TSConstructor = { fg = colors.keyword.fg }, -- Function/Special/Statement/Keyword
 		-- TSConditional = {},
 		-- TSConstant = {},
 		-- TSConstBuiltin = {},
@@ -207,7 +207,7 @@ function M.setup(colors, config)
 		-- TSKeywordFunction = { link = "Function" },
 		TSKeywordReturn = vim.tbl_extend(
 			"force",
-			{ fg = config.specialReturn and colors.specialReturn or colors.keyword },
+			{ fg = config.specialReturn and colors.special.fg or colors.keyword },
 			config.keywordStyle
 		),
 		TSLabel = { link = "Label" },
@@ -232,7 +232,7 @@ function M.setup(colors, config)
 		-- TSType = {},
 		-- TSTypeBuiltin = {},
 		TSVariable = { fg = colors.fg },
-		TSVariableBuiltin = vim.tbl_extend("force", { fg = colors.specialVar }, config.variablebuiltinStyle),
+		TSVariableBuiltin = vim.tbl_extend("force", { fg = colors.special.fg }, config.variablebuiltinStyle),
 
 		-- TSTag = {},
 		-- TSTagDelimiter = {},
@@ -301,9 +301,9 @@ function M.setup(colors, config)
 		NvimTreeGitDirty = { fg = colors.git.changed.fg, bg = colors.git.changed.bg },
 		NvimTreeGitNew = { fg = colors.git.added.fg, bg = colors.git.added.bg },
 		NvimTreeGitDeleted = { bg = colors.git.removed.bg, fg = "Red" },
-		NvimTreeSpecialFile = { fg = colors.specialVar },
+		NvimTreeSpecialFile = { fg = colors.special.fg },
 		-- NvimTreeIndentMarker           = {},
-		NvimTreeImageFile = { fg = colors.specialReturn },
+		NvimTreeImageFile = { fg = colors.special.de },
 		NvimTreeSymlink = { link = "Type" },
 		NvimTreeFolderName = { link = "Directory" },
 		NvimTreeExecFile = { fg = "Green", bold = true },
@@ -433,7 +433,7 @@ function M.setup(colors, config)
 		CmpItemKindField = { link = "TSField" },
 		CmpItemKindEnum = { link = "Identifier" },
 
-		CmpItemKindSnippet = { fg = colors.special },
+		CmpItemKindSnippet = { fg = colors.special.fg },
 
 		CmpItemKindText = { link = "TSText" },
 
