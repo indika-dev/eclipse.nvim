@@ -31,13 +31,13 @@ return {
 			diff = {
 				text = { fg = "Red", bg = "#ffd0d0" },
 				change = { fg = "Black", bg = "#ffe7e7" },
-				delete = { bg = "#e7e7ff" },
+				delete = { fg = "Red", bg = "#e7e7ff" },
 				add = { fg = "Blue", bg = "#e7e7ff" },
 			},
 
 			git = {
 				added = { fg = "Blue", bg = "#e7e7ff" },
-				removed = { bg = "#e7e7ff" },
+				removed = { fg = "Red", bg = "#e7e7ff" },
 				changed = { fg = "Black", bg = "#ffe7e7" },
 			},
 			statusLine = { fg = "#ffffff", bg = "#4570aa" },
