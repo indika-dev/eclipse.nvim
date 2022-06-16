@@ -90,7 +90,7 @@ function M.setup(colors, config)
 		-- Repeat = {},
 		-- Label = { link = 'Statement' }, --TODO: check default
 		Operator = { fg = colors.operator },
-		Keyword = vim.tbl_extend("force", { fg = colors.keyword }, config.keywordStyle),
+		Keyword = vim.tbl_extend("force", { fg = colors.keyword.fg }, config.keywordStyle),
 		Exception = { fg = colors.special },
 
 		PreProc = { fg = colors.preProc.fg },
@@ -105,14 +105,14 @@ function M.setup(colors, config)
 		-- Structure = {},
 		-- Typedef = {},
 
-		Special = { fg = colors.special },
+		Special = { fg = colors.special.fg },
 		-- SpecialChar = {},
 		-- Tag = {},
 		-- Delimiter = { fg = c.br},
 		-- SpecialComment = {},
 		-- Debug = {},
 
-		Underlined = { fg = colors.special, underline = true },
+		Underlined = { fg = colors.special.fg, underline = true },
 		Bold = { bold = true },
 		Italic = { italic = true },
 
@@ -135,15 +135,15 @@ function M.setup(colors, config)
 		-- mkdLink = {},
 
 		-- markdownHeadingDelimiter = {},
-		markdownCode = { fg = colors.statement },
-		markdownCodeBlock = { fg = colors.statement },
+		markdownCode = { fg = colors.statement.fg },
+		markdownCodeBlock = { fg = colors.statement.fg },
 		markdownEscape = { fg = "NONE" },
 		-- markdownH1 = {},
 		-- markdownH2 = {},
 		-- markdownLinkText = {},
 
 		debugPC = { bg = colors.diff.delete.bg },
-		debugBreakpoint = { fg = colors.special },
+		debugBreakpoint = { fg = colors.special.fg },
 
 		LspReferenceText = { bg = colors.bg_light },
 		LspReferenceRead = { bg = colors.fg_dark },
@@ -170,7 +170,7 @@ function M.setup(colors, config)
 		DiagnosticUnderlineHint = { undercurl = true, sp = colors.diag.hint.bg },
 
 		LspSignatureActiveParameter = { fg = colors.diag.warning.fg, bg = colors.diag.warning.bg },
-		LspCodeLens = { fg = colors.comment },
+		LspCodeLens = { fg = colors.comment.fg },
 
 		-- ALEErrorSign = {},
 		-- ALEWarningSign = {},
@@ -192,7 +192,7 @@ function M.setup(colors, config)
 		-- TSException = { link = 'Exception' }, -- default, -> statement
 		TSException = vim.tbl_extend(
 			"force",
-			{ fg = config.specialException and colors.specialException or colors.statement },
+			{ fg = config.specialException and colors.special.fg or colors.statement.fg },
 			config.statementStyle
 		),
 		TSField = { link = "Identifier" }, -- default
@@ -216,7 +216,7 @@ function M.setup(colors, config)
 		-- TSNone = {},
 		-- TSNumber = {},
 		TSOperator = { link = "Operator" },
-		TSKeywordOperator = { fg = colors.op, bold = true },
+		TSKeywordOperator = { fg = colors.operator.fg, bold = true },
 		TSParameter = { link = "Identifier" }, -- default
 		-- TSParameterReference = {},
 		TSProperty = { link = "Identifier" }, -- default
@@ -226,8 +226,8 @@ function M.setup(colors, config)
 		TSPunctSpecial = { link = "TSPunctDelimiter" },
 		-- TSRepeat = {},
 		-- TSString = {},
-		TSStringRegex = { fg = colors.regex },
-		TSStringEscape = { fg = colors.regex, bold = true },
+		TSStringRegex = { fg = colors.regex.fg },
+		TSStringEscape = { fg = colors.regex.fg, bold = true },
 		-- TSSymbol = {},
 		-- TSType = {},
 		-- TSTypeBuiltin = {},
@@ -297,7 +297,7 @@ function M.setup(colors, config)
 		-- NvimTree                       = {},
 		NvimTreeNormal = { link = "Normal" },
 		NvimTreeNormalNC = { link = "NormalNC" },
-		NvimTreeRootFolder = { fg = colors.title, bold = true },
+		NvimTreeRootFolder = { fg = colors.title.fg, bold = true },
 		NvimTreeGitDirty = { fg = colors.git.changed.fg, bg = colors.git.changed.bg },
 		NvimTreeGitNew = { fg = colors.git.added.fg, bg = colors.git.added.bg },
 		NvimTreeGitDeleted = { bg = colors.git.removed.bg, fg = "Red" },
@@ -308,7 +308,7 @@ function M.setup(colors, config)
 		NvimTreeFolderName = { link = "Directory" },
 		NvimTreeExecFile = { fg = "Green", bold = true },
 		NvimTreeGitStaged = { fg = colors.git.added.fg, bg = colors.git.added.bg },
-		NvimTreeOpenedFile = { fg = colors.specialException, italic = true },
+		NvimTreeOpenedFile = { fg = colors.special.fg, italic = true },
 
 		-- Fern
 		-- FernBranchText = {},
@@ -325,8 +325,8 @@ function M.setup(colors, config)
 		-- Dashboard
 		DashboardShortCut = { fg = colors.visual.fg },
 		DashboardHeader = { fg = colors.git.removed.fg },
-		DashboardCenter = { fg = colors.identifier },
-		DashboardFooter = { fg = colors.identifier },
+		DashboardCenter = { fg = colors.identifier.fg },
+		DashboardFooter = { fg = colors.identifier.fg },
 
 		-- WhichKey = {},
 		-- WhichKeyGroup = {},
@@ -410,13 +410,13 @@ function M.setup(colors, config)
 		CmpCompletionSbar = { link = "PmenuSbar" },
 
 		CmpItemAbbr = { fg = colors.pMenu.fg, bg = colors.pMenu.bg },
-		CmpItemAbbrDeprecated = { fg = colors.comment, strikethrough = true },
+		CmpItemAbbrDeprecated = { fg = colors.comment.fg, strikethrough = true },
 
-		CmpItemAbbrMatch = { fg = colors.func },
+		CmpItemAbbrMatch = { fg = colors.func.fg },
 		CmpItemAbbrMatchFuzzy = { link = "CmpItemAbbrMatch" },
 
-		CmpItemKindDefault = { fg = colors.constant },
-		CmpItemMenu = { fg = colors.comment },
+		CmpItemKindDefault = { fg = colors.constant.fg },
+		CmpItemMenu = { fg = colors.comment.fg },
 
 		CmpItemKindVariable = { fg = colors.fg_dark },
 
