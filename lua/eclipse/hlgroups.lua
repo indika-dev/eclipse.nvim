@@ -449,17 +449,17 @@ function M.setup(colors, config)
 		CmpItemKindReference = { link = "TSParameterReference" },
 		CmpItemKindEnumMember = { link = "TSField" },
 
-		-- CmpItemKindValue = { link = "String" },
-		-- -- CmpItemKindUnit = {},
-		-- -- CmpItemKindEvent = {},
-		-- -- CmpItemKindColor = {},
+		CmpItemKindValue = { link = "String" },
+		-- CmpItemKindUnit = {},
+		-- CmpItemKindEvent = {},
+		-- CmpItemKindColor = {},
 
-		-- -- IndentBlankline
-		-- IndentBlanklineChar = { fg = colors.bg_light },
-		-- IndentBlanklineSpaceChar = { fg = colors.bg_light },
-		-- IndentBlanklineSpaceCharBlankline = { fg = colors.bg_light },
-		-- IndentBlanklineContextChar = { fg = colors.bg_light },
-		-- IndentBlanklineContextStart = { sp = colors.bg_light, underline = true },
+		-- IndentBlankline
+		IndentBlanklineChar = { fg = colors.bg_light },
+		IndentBlanklineSpaceChar = { fg = colors.bg_light },
+		IndentBlanklineSpaceCharBlankline = { fg = colors.bg_light },
+		IndentBlanklineContextChar = { fg = colors.bg_light },
+		IndentBlanklineContextStart = { sp = colors.bg_light, underline = true },
 	}
 
 	for hl, specs in pairs(config.overrides) do
