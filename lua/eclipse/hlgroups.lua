@@ -398,56 +398,56 @@ function M.setup(colors, config)
 		-- HopNextKey2 = {},
 		-- HopUnmatched = {},
 
-		-- -- LightspeedGreyWash = {},
+		-- LightspeedGreyWash = {},
 
-		-- -- Cmp
-		-- CmpDocumentation = { link = "NormalFloat" },
-		-- CmpDocumentationBorder = { link = "FloatBorder" },
-		-- CmpCompletion = { link = "Pmenu" },
-		-- CmpCompletionSel = { link = "PmenuSel" },
-		-- CmpCompletionBorder = { fg = colors.search.fg, bg = colors.search.bg },
-		-- CmpCompletionThumb = { link = "PmenuThumb" },
-		-- CmpCompletionSbar = { link = "PmenuSbar" },
+		-- Cmp
+		CmpDocumentation = { link = "NormalFloat" },
+		CmpDocumentationBorder = { link = "FloatBorder" },
+		CmpCompletion = { link = "Pmenu" },
+		CmpCompletionSel = { link = "PmenuSel" },
+		CmpCompletionBorder = { fg = colors.search.fg, bg = colors.search.bg },
+		CmpCompletionThumb = { link = "PmenuThumb" },
+		CmpCompletionSbar = { link = "PmenuSbar" },
 
-		-- CmpItemAbbr = { fg = colors.pMenu.fg, bg = colors.pMenu.bg },
-		-- CmpItemAbbrDeprecated = { fg = colors.comment.fg, strikethrough = true },
+		CmpItemAbbr = { fg = colors.pMenu.fg, bg = colors.pMenu.bg },
+		CmpItemAbbrDeprecated = { fg = colors.comment.fg, strikethrough = true },
 
-		-- CmpItemAbbrMatch = { fg = colors.func.fg },
-		-- CmpItemAbbrMatchFuzzy = { link = "CmpItemAbbrMatch" },
+		CmpItemAbbrMatch = { fg = colors.func.fg },
+		CmpItemAbbrMatchFuzzy = { link = "CmpItemAbbrMatch" },
 
-		-- CmpItemKindDefault = { fg = colors.constant.fg },
-		-- CmpItemMenu = { fg = colors.comment.fg },
+		CmpItemKindDefault = { fg = colors.constant.fg },
+		CmpItemMenu = { fg = colors.comment.fg },
 
-		-- CmpItemKindVariable = { fg = colors.fg_dark },
+		CmpItemKindVariable = { fg = colors.fg_dark },
 
-		-- CmpItemKindFunction = { link = "Function" },
-		-- CmpItemKindMethod = { link = "Function" },
+		CmpItemKindFunction = { link = "Function" },
+		CmpItemKindMethod = { link = "Function" },
 
-		-- CmpItemKindConstructor = { link = "TSConstructor" },
+		CmpItemKindConstructor = { link = "TSConstructor" },
 
-		-- CmpItemKindClass = { link = "Type" },
-		-- CmpItemKindInterface = { link = "Type" },
-		-- CmpItemKindStruct = { link = "Type" },
+		CmpItemKindClass = { link = "Type" },
+		CmpItemKindInterface = { link = "Type" },
+		CmpItemKindStruct = { link = "Type" },
 
-		-- CmpItemKindProperty = { link = "TSProperty" },
-		-- CmpItemKindField = { link = "TSField" },
-		-- CmpItemKindEnum = { link = "Identifier" },
+		CmpItemKindProperty = { link = "TSProperty" },
+		CmpItemKindField = { link = "TSField" },
+		CmpItemKindEnum = { link = "Identifier" },
 
-		-- CmpItemKindSnippet = { fg = colors.special.fg },
+		CmpItemKindSnippet = { fg = colors.special.fg },
 
-		-- CmpItemKindText = { link = "TSText" },
+		CmpItemKindText = { link = "TSText" },
 
-		-- CmpItemKindModule = { link = "TSInclude" },
+		CmpItemKindModule = { link = "TSInclude" },
 
-		-- CmpItemKindFile = { link = "Directory" },
-		-- CmpItemKindFolder = { link = "Directory" },
+		CmpItemKindFile = { link = "Directory" },
+		CmpItemKindFolder = { link = "Directory" },
 
-		-- CmpItemKindKeyword = { link = "TSKeyword" },
-		-- CmpItemKindTypeParameter = { link = "Identifier" },
-		-- CmpItemKindConstant = { link = "Constant" },
-		-- CmpItemKindOperator = { link = "Operator" },
-		-- CmpItemKindReference = { link = "TSParameterReference" },
-		-- CmpItemKindEnumMember = { link = "TSField" },
+		CmpItemKindKeyword = { link = "TSKeyword" },
+		CmpItemKindTypeParameter = { link = "Identifier" },
+		CmpItemKindConstant = { link = "Constant" },
+		CmpItemKindOperator = { link = "Operator" },
+		CmpItemKindReference = { link = "TSParameterReference" },
+		CmpItemKindEnumMember = { link = "TSField" },
 
 		-- CmpItemKindValue = { link = "String" },
 		-- -- CmpItemKindUnit = {},
