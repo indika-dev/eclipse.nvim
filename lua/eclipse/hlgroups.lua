@@ -91,7 +91,7 @@ function M.setup(colors, config)
 		-- Label = { link = 'Statement' }, --TODO: check default
 		Operator = { fg = colors.operator },
 		Keyword = vim.tbl_extend("force", { fg = colors.keyword }, config.keywordStyle),
-		Exception = { fg = colors.sp2 },
+		Exception = { fg = colors.special },
 
 		PreProc = { fg = colors.preProc.fg },
 		-- Include = {},
