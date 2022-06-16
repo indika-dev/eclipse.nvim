@@ -3,41 +3,41 @@ local colors = require("eclipse.colors").setup()
 local eclipse = {}
 
 eclipse.normal = {
-  a = { bg = colors.gray_2, fg = colors.blue_4 },
-  b = { bg = colors.gray_4, fg = colors.black },
-  c = { bg = colors.bg_light0, fg = colors.fg },
+	a = { bg = "LightGray", fg = "Blue" },
+	b = { bg = "LightGray", fg = "Black" },
+	c = { bg = "LightGray", fg = "Black" },
 }
 
 eclipse.insert = {
-  a = { bg = colors.green_2, fg = colors.bg_dark },
-  b = { bg = colors.gray_4, fg = colors.green_2 },
+	a = { bg = "LightGray", fg = "Green" },
+	b = { bg = "LightGray", fg = "Green" },
 }
 
 eclipse.command = {
-  a = { bg = colors.gray_2, fg = colors.bg_dark },
-  b = { bg = colors.gray_4, fg = colors.gray_2 },
+	a = { bg = "LightGray", fg = colors.fg_dark },
+	b = { bg = "LightGray", fg = colors.fg_dark },
 }
 
 eclipse.visual = {
-  a = { bg = colors.purple_2, fg = colors.bg_dark },
-  b = { bg = colors.gray_4, fg = colors.purple_2 },
+	a = { bg = colors.visual.bg, fg = colors.visual.fg },
+	b = { bg = "LightGray", fg = colors.visual.fg },
 }
 
 eclipse.replace = {
-  a = { bg = colors.light_red_2, fg = colors.bg_dark },
-  b = { bg = colors.gray_4, fg = colors.light_red_2 },
+	a = { bg = "LightGray", fg = "LightRed" },
+	b = { bg = "LightGray", fg = "LightRed" },
 }
 
 eclipse.inactive = {
-  a = { bg = colors.bg_status, fg = colors.blue_4 },
-  b = { bg = colors.bg_status, fg = colors.gray_3, gui = "bold" },
-  c = { bg = colors.bg_status, fg = colors.gray_4 },
+	a = { bg = colors.bg_dim, fg = colors.fg_dark },
+	b = { bg = colors.bg_dim, fg = colors.fg_dark, gui = "bold" },
+	c = { bg = colors.bg_dim, fg = colors.fg_dark },
 }
 
 if vim.g.eclipse_lualine_bold then
-  for _, mode in pairs(eclipse) do
-    mode.a.gui = "bold"
-  end
+	for _, mode in pairs(eclipse) do
+		mode.a.gui = "bold"
+	end
 end
 
 return eclipse
