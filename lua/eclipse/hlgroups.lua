@@ -149,55 +149,55 @@ function M.setup(colors, config)
 		LspReferenceRead = { bg = colors.fg_dark },
 		LspReferenceWrite = { bg = "Orange" },
 
-		-- DiagnosticError = { fg = colors.diag.error.fg, bg = colors.diag.error.bg },
-		-- DiagnosticWarn = { fg = colors.diag.warning.fg, bg = colors.diag.warning.bg },
-		-- DiagnosticInfo = { fg = colors.diag.info.fg, bg = colors.diag.info.bg },
-		-- DiagnosticHint = { fg = colors.diag.hint.fg, bg = colors.diag.hint.bg },
+		DiagnosticError = { fg = colors.diag.error.fg, bg = colors.diag.error.bg },
+		DiagnosticWarn = { fg = colors.diag.warning.fg, bg = colors.diag.warning.bg },
+		DiagnosticInfo = { fg = colors.diag.info.fg, bg = colors.diag.info.bg },
+		DiagnosticHint = { fg = colors.diag.hint.fg, bg = colors.diag.hint.bg },
 
-		-- DiagnosticSignError = { link = "DiagnosticError" },
-		-- DiagnosticSignWarn = { link = "DiagnosticWarn" },
-		-- DiagnosticSignInfo = { link = "DiagnosticInfo" },
-		-- DiagnosticSignHint = { link = "DiagnosticHint" },
+		DiagnosticSignError = { link = "DiagnosticError" },
+		DiagnosticSignWarn = { link = "DiagnosticWarn" },
+		DiagnosticSignInfo = { link = "DiagnosticInfo" },
+		DiagnosticSignHint = { link = "DiagnosticHint" },
 
-		-- DiagnosticVirtualTextError = { link = "DiagnosticError" },
-		-- DiagnosticVirtualTextWarn = { link = "DiagnosticWarn" },
-		-- DiagnosticVirtualTextInfo = { link = "DiagnosticInfo" },
-		-- DiagnosticVirtualTextHint = { link = "DiagnosticHint" },
+		DiagnosticVirtualTextError = { link = "DiagnosticError" },
+		DiagnosticVirtualTextWarn = { link = "DiagnosticWarn" },
+		DiagnosticVirtualTextInfo = { link = "DiagnosticInfo" },
+		DiagnosticVirtualTextHint = { link = "DiagnosticHint" },
 
-		-- DiagnosticUnderlineError = { undercurl = true, sp = colors.diag.error.bg },
-		-- DiagnosticUnderlineWarn = { undercurl = true, sp = colors.diag.warning.bg },
-		-- DiagnosticUnderlineInfo = { undercurl = true, sp = colors.diag.info.bg },
-		-- DiagnosticUnderlineHint = { undercurl = true, sp = colors.diag.hint.bg },
+		DiagnosticUnderlineError = { undercurl = true, sp = colors.diag.error.bg },
+		DiagnosticUnderlineWarn = { undercurl = true, sp = colors.diag.warning.bg },
+		DiagnosticUnderlineInfo = { undercurl = true, sp = colors.diag.info.bg },
+		DiagnosticUnderlineHint = { undercurl = true, sp = colors.diag.hint.bg },
 
-		-- LspSignatureActiveParameter = { fg = colors.diag.warning.fg, bg = colors.diag.warning.bg },
-		-- LspCodeLens = { fg = colors.comment.fg },
+		LspSignatureActiveParameter = { fg = colors.diag.warning.fg, bg = colors.diag.warning.bg },
+		LspCodeLens = { fg = colors.comment.fg },
 
-		-- -- ALEErrorSign = {},
-		-- -- ALEWarningSign = {},
+		-- ALEErrorSign = {},
+		-- ALEWarningSign = {},
 
-		-- -- TSAnnotation = {},
-		-- TSAttribute = { link = "Constant" },
-		-- -- TSBoolean = {},
-		-- -- TSCharacter = {},
-		-- -- TSComment = {},
-		-- -- TSNote = { fg = c.fg_dark, bg = c.diag.hint, nocombine = true, bold = true}, -- links to SpecialComment -> Special
-		-- TSWarning = { link = "Todo" }, --default
-		-- TSDanger = { link = "WarningMsg" }, --default
-		-- TSConstructor = { fg = colors.keyword.fg }, -- Function/Special/Statement/Keyword
-		-- -- TSConditional = {},
-		-- -- TSConstant = {},
-		-- -- TSConstBuiltin = {},
-		-- -- TSConstMacro = {},
-		-- -- TSError = { fg = colors.diag.error },
-		-- -- TSException = { link = 'Exception' }, -- default, -> statement
-		-- TSException = vim.tbl_extend(
-		-- 	"force",
-		-- 	{ fg = config.specialException and colors.special.fg or colors.statement.fg },
-		-- 	config.statementStyle
-		-- ),
-		-- TSField = { link = "Identifier" }, -- default
-		-- -- TSField = { link = 'Variable'},
-		-- -- TSFloat = {},
+		-- TSAnnotation = {},
+		TSAttribute = { link = "Constant" },
+		-- TSBoolean = {},
+		-- TSCharacter = {},
+		-- TSComment = {},
+		-- TSNote = { fg = c.fg_dark, bg = c.diag.hint, nocombine = true, bold = true}, -- links to SpecialComment -> Special
+		TSWarning = { link = "Todo" }, --default
+		TSDanger = { link = "WarningMsg" }, --default
+		TSConstructor = { fg = colors.keyword.fg }, -- Function/Special/Statement/Keyword
+		-- TSConditional = {},
+		-- TSConstant = {},
+		-- TSConstBuiltin = {},
+		-- TSConstMacro = {},
+		-- TSError = { fg = colors.diag.error },
+		-- TSException = { link = 'Exception' }, -- default, -> statement
+		TSException = vim.tbl_extend(
+			"force",
+			{ fg = config.specialException and colors.special.fg or colors.statement.fg },
+			config.statementStyle
+		),
+		TSField = { link = "Identifier" }, -- default
+		-- TSField = { link = 'Variable'},
+		-- TSFloat = {},
 		-- -- TSFunction = {},
 		-- -- TSFuncBuiltin = {link = "Function" },
 		-- -- TSFuncMacro = {},
