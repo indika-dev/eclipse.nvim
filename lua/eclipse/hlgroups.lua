@@ -7,14 +7,14 @@ function M.setup(colors, config)
 	config = vim.tbl_extend("force", require("eclipse").config, config or {})
 
 	local hlgroups = {
-		-- Comment = vim.tbl_extend("force", { fg = colors.comment.fg }, config.commentStyle),
-		-- ColorColumn = { bg = colors.bg },
-		-- Conceal = { fg = "Pink", bold = true },
-		-- Cursor = { fg = colors.cursor.fg, bg = colors.cursor.bg },
-		-- lCursor = { fg = colors.lCursor.fg, bg = colors.lCursor.bg },
-		-- CursorIM = { fg = colors.cursorIM.fg, bg = colors.cursorIM.bg },
-		-- CursorLine = { bg = "Pink" },
-		-- CursorColumn = { link = "CursorLine" },
+		Comment = vim.tbl_extend("force", { fg = colors.comment.fg }, config.commentStyle),
+		ColorColumn = { bg = colors.bg },
+		Conceal = { fg = "Pink", bold = true },
+		Cursor = { fg = colors.cursor.fg, bg = colors.cursor.bg },
+		lCursor = { fg = colors.lCursor.fg, bg = colors.lCursor.bg },
+		CursorIM = { fg = colors.cursorIM.fg, bg = colors.cursorIM.bg },
+		CursorLine = { bg = "Pink" },
+		CursorColumn = { link = "CursorLine" },
 		-- Directory = { fg = colors.directory.fg },
 		-- DiffAdd = { bg = colors.diff.add.bg, fg = colors.diff.add.fg },
 		-- DiffChange = { bg = colors.diff.change.bg, fg = colors.diff.change.fg },
