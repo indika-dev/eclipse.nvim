@@ -42,7 +42,7 @@ return {
 			},
 			statusLine = { fg = "#ffffff", bg = "#4570aa" },
 			statusLineNC = { fg = "#ffffff", bg = "#75a0da" },
-			vertSplit = { fg = "#f8f8f8", bg = "#904838" },
+			vertSplit = { fg = "#f8f8f8", bg = "Gray" },
 			wildMenu = { fg = "#f8f8f8", bg = "#ff3030" },
 
 			cursorLine = { fg = "Black", bg = "#e7e7ff" },
@@ -57,7 +57,7 @@ return {
 			pMenu = { bg = "LightGray", fg = "Black" },
 			pMenuSel = { bg = "#4570aa", fg = "White" },
 			pMenuSBar = { bg = "LightGray", fg = "Gray" },
-			pMenuThumb = { bg = "White", fg = "Red" },
+			pMenuThumb = { bg = "Gray", fg = "Gray" },
 
 			directory = { fg = "#7050ff" },
 			lineNr = { fg = "#6b6b6b", bg = "#eeeeee" },
