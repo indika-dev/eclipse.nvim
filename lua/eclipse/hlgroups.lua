@@ -10,7 +10,7 @@ function M.setup(colors, config)
 		Comment = vim.tbl_extend("force", { fg = colors.comment.fg }, config.commentStyle),
 		ColorColumn = { bg = colors.bg },
 		Conceal = { fg = "Pink", bold = true },
-		Cursor = { fg = colors.cursor.fg, bg = colors.cursor.bg https://github.com/indika-dev/groovyOsgi.git,
+		Cursor = { fg = colors.cursor.fg, bg = colors.cursor.bg },
 		lCursor = { fg = colors.lCursor.fg, bg = colors.lCursor.bg },
 		CursorIM = { fg = colors.cursorIM.fg, bg = colors.cursorIM.bg },
 		CursorLine = { fg = cursorLine.fg, bg = cursorLine.bg },
