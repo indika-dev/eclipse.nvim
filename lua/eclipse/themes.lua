@@ -19,8 +19,8 @@ return {
 			},
 
 			diag = {
-				error = { fg = "#f8f8f8", bg = "#4040ff" },
-				warning = { fg = "#f8f8f8", bg = "#4040ff" },
+				error = { fg = "#f8f8f8", bg = "Red" },
+				warning = { fg = "#f8f8f8", bg = "Orange" },
 				info = { fg = "#f8f8f8", bg = "#4040ff" },
 				hint = { fg = "#f8f8f8", bg = "#4040ff" },
 			},
@@ -36,7 +36,7 @@ return {
 			},
 
 			git = {
-				added = { fg = "Blue", bg = "#e7e7ff" },
+				added = { fg = "Green", bg = "#e7e7ff" },
 				removed = { fg = "Red", bg = "#e7e7ff" },
 				changed = { fg = "Black", bg = "#ffe7e7" },
 			},
