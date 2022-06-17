@@ -146,7 +146,7 @@ function M.setup(colors, config)
 		debugBreakpoint = { fg = colors.special.fg },
 
 		LspReferenceText = { bg = colors.bg_light },
-		LspReferenceRead = { bg = colors.fg_dark },
+		LspReferenceRead = { bg = "LightGray" },
 		LspReferenceWrite = { bg = "Orange" },
 
 		DiagnosticError = { fg = colors.diag.error.fg, bg = colors.diag.error.bg },
