@@ -21,7 +21,7 @@ function M.setup(colors, config)
 		DiffDelete = { fg = colors.diff.delete.fg, bg = colors.diff.delete.bg },
 		DiffText = { bg = colors.diff.text.bg, fg = colors.diff.text.fg },
 		EndOfBuffer = { fg = "Pink" }, --colors.bg },
-		-- TermCursor = {},
+		TermCursor = { fg = colors.fg },
 		-- TermCursorNC = {},
 		ErrorMsg = { fg = colors.diag.error.fg, bg = colors.diag.error.bg },
 		VertSplit = { fg = colors.vertSplit.fg, bg = colors.vertSplit.bg },
