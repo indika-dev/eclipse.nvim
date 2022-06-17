@@ -47,7 +47,7 @@ M.config = {
 	statementStyle = { bold = true },
 	typeStyle = {},
 	variablebuiltinStyle = {},
-	incSearchStyle = { undercurl = true, sp = "#e0e040" },
+	incSearchStyle = { undercurl = true },
 	specialReturn = true,
 	specialException = true,
 	transparent = false,
