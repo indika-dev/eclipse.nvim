@@ -45,7 +45,7 @@ return {
 			vertSplit = { fg = "#f8f8f8", bg = "#904838" },
 			wildMenu = { fg = "#f8f8f8", bg = "#ff3030" },
 
-			cursorLine = { fg = "Black", bg = "#75a0da" },
+			cursorLine = { fg = "Black", bg = "#e7e7ff" },
 
 			cursor = { fg = "#ffffff", bg = "#0080f0" },
 			lCursor = { fg = "#ffffff", bg = "#8040ff" },
@@ -54,9 +54,9 @@ return {
 			folded = { fg = "#804030", bg = "#fff0d0" },
 			foldColumn = { fg = "#6b6b6b", bg = "#e7e7e7" },
 
-			pMenu = { bg = "Green", fg = "White" },
-			pMenuSel = { bg = "White", fg = "Black" },
-			pMenuSBar = { bg = "Red", fg = "White" },
+			pMenu = { bg = "LightGray", fg = "Black" },
+			pMenuSel = { bg = "#4570aa", fg = "White" },
+			pMenuSBar = { bg = "LightGray", fg = "Gray" },
 			pMenuThumb = { bg = "White", fg = "Red" },
 
 			directory = { fg = "#7050ff" },
@@ -66,7 +66,7 @@ return {
 			title = { fg = "#0033cc" },
 			visual = { fg = "#804020", bg = "#ffc0a0" },
 
-			comment = { fg = "#236e25" },
+			comment = { fg = "#0080f0" },
 			constant = { fg = "#00884c" },
 			error = { fg = "#f8f8f8", bg = "#4040ff" },
 			preProc = { fg = "#683821" },
