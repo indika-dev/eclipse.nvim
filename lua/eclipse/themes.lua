@@ -45,6 +45,8 @@ return {
 			vertSplit = { fg = "#f8f8f8", bg = "#904838" },
 			wildMenu = { fg = "#f8f8f8", bg = "#ff3030" },
 
+			cursorLine = { fg = "Black", bg = "#e7e7ff" },
+
 			cursor = { fg = "#ffffff", bg = "#0080f0" },
 			lCursor = { fg = "#ffffff", bg = "#8040ff" },
 			cursorIM = { fg = "#ffffff", bg = "#8040ff" },
