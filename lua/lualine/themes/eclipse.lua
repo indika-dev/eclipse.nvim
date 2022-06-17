@@ -19,7 +19,7 @@ eclipse.command = {
 }
 
 eclipse.visual = {
-	a = { bg = colors.visual.bg, fg = colors.visual.fg },
+	a = { bg = "LightGray", fg = colors.visual.fg },
 	b = { bg = "LightGray", fg = colors.visual.fg },
 }
 
