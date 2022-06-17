@@ -1,8 +1,8 @@
 return {
 	default = function(colors)
 		return {
-			bg = "#ffffff",
-			fg = "#000000",
+			bg = "White",
+			fg = "Black",
 			bg_dim = "Gray",
 			fg_dark = "#f8f8f8",
 			bg_dark = "#707070",
@@ -19,8 +19,8 @@ return {
 			},
 
 			diag = {
-				error = { fg = "#f8f8f8", bg = "Red" },
-				warning = { fg = "#f8f8f8", bg = "#f4a308" },
+				error = { fg = "Black", bg = "Red" },
+				warning = { fg = "Black", bg = "#f4a308" },
 				info = { fg = "#f8f8f8", bg = "#4040ff" },
 				hint = { fg = "#f8f8f8", bg = "#4040ff" },
 			},
