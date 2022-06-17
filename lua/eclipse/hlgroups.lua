@@ -13,7 +13,7 @@ function M.setup(colors, config)
 		Cursor = { fg = colors.cursor.fg, bg = colors.cursor.bg },
 		lCursor = { fg = colors.lCursor.fg, bg = colors.lCursor.bg },
 		CursorIM = { fg = colors.cursorIM.fg, bg = colors.cursorIM.bg },
-		CursorLine = { fg = cursorLine.fg, bg = cursorLine.bg },
+		CursorLine = { fg = colors.cursorLine.fg, bg = colors.cursorLine.bg },
 		CursorColumn = { link = "CursorLine" },
 		Directory = { fg = colors.directory.fg },
 		DiffAdd = { bg = colors.diff.add.bg, fg = colors.diff.add.fg },
