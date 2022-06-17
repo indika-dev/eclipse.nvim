@@ -20,7 +20,7 @@ return {
 
 			diag = {
 				error = { fg = "#f8f8f8", bg = "Red" },
-				warning = { fg = "#f8f8f8", bg = "#ffc0a0" },
+				warning = { fg = "#f8f8f8", bg = "#f4a308" },
 				info = { fg = "#f8f8f8", bg = "#4040ff" },
 				hint = { fg = "#f8f8f8", bg = "#4040ff" },
 			},
