@@ -66,7 +66,8 @@ return {
 			title = { fg = "#0033cc" },
 			visual = { fg = "#804020", bg = "#ffc0a0" },
 
-			comment = { fg = "#0080f0" },
+			comment = { fg = "#0caa00" },
+			functionComment = { fg = "#0080f0" },
 			constant = { fg = "#00884c" },
 			error = { fg = "#f8f8f8", bg = "#4040ff" },
 			preProc = { fg = "#683821" },
