@@ -42,7 +42,7 @@ function M.setup(colors, config)
     -- MsgSeparator = {},
     MoreMsg = { fg = colors.moreMsg.fg },
     NonText = { fg = colors.nonText.fg, bg = colors.nonText.bg },
-    Normal = { fg = colors.fg, bg = not config.transparent or colors.bg or "NONE" },
+    Normal = { fg = colors.fg, bg = colors.bg }, -- not config.transparent and colors.bg or "NONE" },
     NormalNC = config.dimInactive and { fg = colors.fg_dark, bg = colors.bg_dim } or { link = "Normal" },
     NormalSB = { link = "Normal" },
     NormalFloat = { fg = colors.fg, bg = colors.bg },
