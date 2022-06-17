@@ -76,7 +76,7 @@ return {
 			todo = { fg = "#ff5050", bg = "White" },
 			type = { fg = "#7f0055" },
 			underlined = { fg = "Blue" },
-			string = { fg = "#8010a0" },
+			string = { fg = "#0000ff" },
 			number = { fg = "#0000ff" },
 			identifier = { fg = "Gray" },
 			operator = { fg = "Gray" },
