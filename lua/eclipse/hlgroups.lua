@@ -177,7 +177,7 @@ function M.setup(colors, config)
 
 		-- TSAnnotation = {},
 		TSAttribute = { link = "Constant" },
-		-- TSBoolean = {},
+		TSBoolean = { fg = colors.special.fg, bold = true },
 		-- TSCharacter = {},
 		-- TSComment = {},
 		-- TSNote = { fg = c.fg_dark, bg = c.diag.hint, nocombine = true, bold = true}, -- links to SpecialComment -> Special
